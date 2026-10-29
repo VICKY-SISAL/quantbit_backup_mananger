@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "creation": "2026-10-29 09:54:58.425399",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_2_tab",
+  "password",
+  "user_password",
+  "username",
+  "folder_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "IP"
+  },
+  {
+   "fieldname": "user_password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "folder_location",
+   "fieldtype": "Data",
+   "label": "Folder Location"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-10-29 10:40:25.487719",
+ "modified_by": "Administrator",
+ "module": "Quantbit Backup Mananger",
+ "name": "Backup Location Configuration",
+ "owner": "vickysisal3@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
